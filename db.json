@@ -1,0 +1,355 @@
+{
+    "properties": [
+      {
+        "id": 1,
+        "name": "Wangechi Mutu",
+        "imageUrl": "https://blog.artsper.com/wp-content/uploads/2018/11/Wangechi-Mutu-3.jpg",
+        "category": "Paintwork",
+        "email": "wangechimutu@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "El Anatusui",
+        "imageUrl": "https://propscout.co.ke/storage/properties/files/gated-communities/webp/karen-5-bedroom-house-in-a-gated-community-for-rent-mljlo.webp",
+        "category": "Construction",
+        "email": "anatusui8999@gmail.com"
+      },
+      {
+        "id": 4,
+        "name": "Julie Mehretu",
+        "imageUrl": "https://isdi.in/blog/wp-content/uploads/2022/07/25.jpg",
+        "category": "Fashion",
+        "email": "juliemuh@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Enfant Précoce",
+        "imageUrl": "https://blog.artsper.com/wp-content/uploads/2021/03/enfant-1.jpg",
+        "category": "Paintwork",
+        "email": "eprécoce@yahoo.com"
+      },
+      {
+        "id": 6,
+        "name": "Thandiwe Muriu",
+        "imageUrl": "http://cdn.home-designing.com/wp-content/uploads/2014/07/free-3-bedroom-house-plans.jpeg",
+        "category": "Construction",
+        "email": "thai59@yahoo.com"
+      },
+      {
+        "id": 7,
+        "name": "William Kentridge",
+        "imageUrl": "https://fashionmingle.com/wp-content/uploads/2015/11/drawing657-888x538.jpg",
+        "category": "Fashion",
+        "email": "willmuh@gmail.com"
+      },
+      {
+        "id": 8,
+        "name": "Adel Abdessemed",
+        "imageUrl": "https://artincontext.org/wp-content/uploads/2022/10/Famous-Sad-Paintings.jpg",
+        "category": "Paintwork",
+        "email": "armtàge500@gmail.com"
+      },
+      {
+        "id": 9,
+        "name": "Michael Armitage",
+        "imageUrl": "https://images.kenyapropertycentre.com/properties/images/9020/060ec4204e27e5-runda-4-bedroom-house-for-sale-runda-westlands-nairobi.jpg",
+        "category": "Construction",
+        "email": "armitàge@gmail.com"
+      },
+      {
+        "id": 10,
+        "name": "Kendell Geers",
+        "imageUrl": "https://media.timeout.com/images/105795964/image.jpg",
+        "category": "Paintwork",
+        "email": "kendellGeers@yahoo.com"
+      },
+      {
+        "id": 11,
+        "name": "Njideka Akunyili Crosby",
+        "imageUrl": "https://www.dmarge.com/wp-content/uploads/2015/06/paris-menswear.png",
+        "category": "Fashion",
+        "email": "akunyiiCrosby64@gmail.com"
+      },
+      {
+        "id": 12,
+        "name": "Wael Shawky",
+        "imageUrl": "https://www.gardenhouseskenya.com/wp-content/uploads/2021/12/Garden-Houses-Kenya-Nairobi-Garden-House-Off-Thika-Road-15-minitues-from-Nairobi-CBD-www.gardenhouseskenya.com-17n.jpg",
+        "category": "Construction",
+        "email": "waelShawky@yahoo.com"
+      },
+      {
+        "id": 13,
+        "name": "Marlene Dumas",
+        "imageUrl": "https://images.saatchiart.com/saatchi/1418521/art/8228313/7293703-HSC00002-7.jpg",
+        "category": "Paintwork",
+        "email": "marleneDumas64@gmail.com"
+      },
+      {
+        "id": 14,
+        "name": "Enfant Précoce",
+        "imageUrl": "https://img.nieuwsblad.be/L9iNYwM2WSkafoY2sGoNQ1UXkaI=/960x640/smart/https%3A%2F%2Fstatic.nieuwsblad.be%2FAssets%2FImages_Upload%2F2022%2F05%2F10%2F22e1cce8-8a07-4d63-8573-76a9a12375be.jpg",
+        "category": "Fashion",
+        "email": "enFantprécoce@yahoo.com"
+      },
+      {
+        "id": 15,
+        "name": "Basim Magdy",
+        "imageUrl": "https://www.thisiscolossal.com/wp-content/uploads/2020/04/getty-1.jpg",
+        "category": "Paintwork",
+        "email": "basimMagdy@gmail.com"
+      },
+      {
+        "id": 16,
+        "name": "Wangechi Mutu",
+        "imageUrl": "https://www.gardenhouseskenya.com/wp-content/uploads/2021/12/Garden-Houses-Kenya-Nairobi-Garden-House-Off-Thika-Road-15-minitues-from-Nairobi-CBD-www.gardenhouseskenya.com-17n.jpg",
+        "category": "Construction",
+        "email": "wangechimutu@gmail.com"
+      },
+      {
+        "id": 17,
+        "name": "Njideka Akunyili Crosby",
+        "imageUrl": "https://ual-media-res.cloudinary.com/image/fetch/c_limit,h_333/w_auto:breakpoints/https://www.arts.ac.uk/__data/assets/image/0021/230187/image5.jpeg",
+        "category": "Fashion",
+        "email": "akunyiiCrosby64@gmail.com"
+      },
+      {
+        "id": 18,
+        "name": "Ntombephi Ntobela",
+        "imageUrl": "https://cdn.architecturendesign.net/wp-content/uploads/2014/10/29-3-bedoom-with-balcony-house-plans.jpeg",
+        "category": "Construction",
+        "email": "ntombephiNtobela59@yahoo.com"
+      },
+      {
+        "id": 19,
+        "name": "Michael Armitage",
+        "imageUrl": "https://www.shutterstock.com/shutterstock/photos/1189338559/display_1500/stock-vector-fashion-man-fashion-men-sketches-on-a-white-background-autumn-men-1189338559.jpg",
+        "category": "Fashion",
+        "email": "michealArmitage@gmail.com"
+      },
+      {
+        "id": 20,
+        "name": "Barthélémy Toguo",
+        "imageUrl": "https://i.etsystatic.com/5413122/r/il/cc2859/2794564800/il_fullxfull.2794564800_iawo.jpg",
+        "category": "Paintwork",
+        "email": "barthlélémyMagdy@gmail.com"
+      },
+      {
+        "id": 21,
+        "name": "Jean-Michel Albèrola",
+        "imageUrl": "https://images-prod.dazeddigital.com/786/azure/dazed-prod/1330/1/1331899.jpg",
+        "category": "Fashion",
+        "email": "alberola@yahoo.com"
+      },
+      {
+        "id": 22,
+        "name": "Ghada Amer",
+        "imageUrl": "https://images.kenyapropertycentre.com/properties/images/9020/060ec4204e27e5-runda-4-bedroom-house-for-sale-runda-westlands-nairobi.jpg",
+        "category": "Construction",
+        "email": "ghadaAmer764@gmail.com"
+      },
+      {
+        "id": 23,
+        "name": "Wael Shawky",
+        "imageUrl": "https://i.ebayimg.com/images/g/Y28AAOSwts1gmqoY/s-l1600.jpg",
+        "category": "Paintwork",
+        "email": "waelShawky@yahoo.com"
+      },
+      {
+        "id": 24,
+        "name": "Ronnie Raymond",
+        "imageUrl": "https://i.stack.imgur.com/eZUU2.gif ",
+        "category": "Construction",
+        "email": "raymond@gmail.com"
+      },
+      {
+        "id": 25,
+        "name": "Luke Dunphy",
+        "imageUrl": "https://wallpaper.dog/large/10758285.jpg",
+        "category": "Paintwork",
+        "email": "lukie@yahoo.com"
+      },
+      {
+        "id": 26,
+        "name": "Ntombephi Ntobela",
+        "imageUrl": "https://i.ytimg.com/vi/FpN2uSN6rJ4/maxresdefault.jpg",
+        "category": "Fashion",
+        "email": "ntombephiNtobela59@yahoo.com"
+      },
+      {
+        "id": 27,
+        "name": "Cisco Ramon",
+        "imageUrl": "https://ulrichome.com/wp-content/uploads/2019/01/3d-floor-plans.jpg",
+        "category": "Construction",
+        "email": "ciscoRamon@yahoo.com"
+      },
+      {
+        "id": 28,
+        "name": "Jean-Michel Albèrola",
+        "imageUrl": "https://openart.in/wp-content/uploads/2021/11/Cosmos-1200x808.jpg",
+        "category": "Paintwork",
+        "email": "jeanMicheal@gmail.com"
+      },
+      {
+        "id": 29,
+        "name": "Njideka Akunyili Crosby",
+        "imageUrl": "https://buzzcentral.co.ke/wp-content/uploads/2021/10/Afrostreet-Kollexion-660x400.jpg",
+        "category": "Fashion",
+        "email": "anatusui8999@gmail.com"
+      },
+      {
+        "id": 30,
+        "name": "Wael Shawky",
+        "imageUrl": "http://www.designcurial.com/Uploads/NewsArticle/4809815/main.jpg",
+        "category": "Construction",
+        "email": "waelShawky@yahoo.com"
+      },
+      {
+        "name": "William Kentridge",
+        "email": "kwntridgwales@gmail.com",
+        "category": "fashion",
+        "imageUrl": "https://stylecaster.com/wp-content/uploads/2022/11/menswearFI.png",
+        "id": 31
+      },
+      
+      {
+        "name": "Abstarv Real",
+        "email": "rearyoung@gmail.com",
+        "category": "paintwork",
+        "imageUrl": "https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947__480.jpg",
+        "id": 32
+      }, 
+      {
+        "name": "Malik wright",
+        "email": "shawnawright@yahoo.com",
+        "category": "paintwork",
+        "imageUrl": "https://img.freepik.com/free-vector/abstract-splashed-watercolor-textured-background_53876-8725.jpg",
+        "id": 33
+      },
+      {
+        "name": "Travis trevor",
+        "email": "trevortravis1000@gmail.com",
+        "category": "construction",
+        "imageUrl": "https://www.achahomes.com/wp-content/uploads/2017/12/One-Storey-house-Design-with-Roof-like.jpg",
+        "id": 34
+      },
+      {
+        "name": "Basim magdy",
+        "email": "basimmagdy@gmail.com",
+        "category": "paintwork",
+        "imageUrl": "https://apicms.thestar.com.my/uploads/images/2019/11/15/387398.jpg",
+        "id": 35
+      },
+      {
+        "name": "Ghada Amer",
+        "email": "ameriacisha@45",
+        "category": "construction",
+        "imageUrl": "https://wpmedia.roomsketcher.com/content/uploads/2022/01/06145940/What-is-a-floor-plan-with-dimensions.png",
+        "id": 36
+      },
+      {
+        "name": "Theo mcCall",
+        "email": "mccallTh@yahoo.com",
+        "category": "construction",
+        "imageUrl": "https://netstorage-tuko.akamaized.net/images/e5acbee498190724.jpg?imwidth=900",
+        "id": 37
+      },
+      {
+        "name": "Crosby Akunyii",
+        "email": "akunyjideka@gmail.com",
+        "category": "fashion",
+        "imageUrl": "https://static.toiimg.com/photo/msid-96650078/96650078.jpg?93812",
+        "id": 38
+      },
+      {
+        "name": "Shania Twayne",
+        "email": "twaynestar@gmail.com",
+        "category": "construction",
+        "imageUrl": "https://giroyproperties.com/wp-content/uploads/2020/03/5-Bed-House-for-Sale-in-Karen-2.jpg",
+        "id": 39
+      },   
+      {
+        "name": "Julie Mehretu",
+        "email": "mahretujulie@yahoo.com",
+        "category": "fashion",
+        "imageUrl": "https://image-prod.iol.co.za/resize/640x64000/Image-Imaxtree-com?source=https://xlibris.public.prod.oc.inl.infomaker.io:8443/opencontent/objects/9bd2eee6-02db-5d74-8c13-2109ff1f16df&operation=CROP&offset=0x0&resize=2243x1372&webp=true",
+        "id": 40
+      },
+      
+      {
+        "name": "Wael Shawky",
+        "email": "waeelshawky@yaohoo.com",
+        "category": "paintwork",
+        "imageUrl": "https://s.studiobinder.com/wp-content/uploads/2022/06/Symmetrical-balance-in-artwork.png",
+        "id": 41
+      },
+      {
+        "name": "Balencia garcia",
+        "email": "balenciaga@gmail.com",
+        "category": "fashion",
+        "imageUrl": "https://cdn.24.co.za/files/Cms/General/d/8059/016f47faf90b42aa8cd24e49b9fff9ed.png",
+        "id": 42
+      },
+      {
+        "name": "Micheal Dior",
+        "email": "michealDior@gmail.com",
+        "category": "fashion",
+        "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nyfwsketches-1567608885.jpg?crop=0.502xw:1.00xh;0.251xw,0&resize=640:*",
+        "id": 43
+      }
+      
+    ],
+    "users": [
+      {
+        "id": 1,
+        "firstname": "Tracy",
+        "lastname": "Obonyo",
+        "gender": "female",
+        "username": "treycee",
+        "password": "6534",
+        "phone": "0797653409",
+        "email": "akunyiiCrosby64@gmail.com",
+        "experience": "worked in a fashion comapany",
+        "category": "Fashion",
+        "newsletter": true
+      },
+      {
+        "firstname": "Trevor",
+        "lastname": "Obonyo",
+        "gender": "male",
+        "username": "trevor",
+        "password": "46564577",
+        "phone": "07895453",
+        "email": "trevorsj@jdhghsj",
+        "experience": "Was all about gender neutral confidence",
+        "category": "construction",
+        "newsletter": true,
+        "id": 3
+      },
+      {
+        "firstname": "MAXINE",
+        "lastname": "Obonyo",
+        "gender": "male",
+        "username": "MAX",
+        "password": "46564577",
+        "phone": "07895453",
+        "email": "trevorsj@jdhghsj",
+        "experience": "Was all about gender neutral confidence",
+        "category": "construction",
+        "newsletter": true,
+        "id": 4
+      },
+      {
+        "firstname": "Trevor",
+        "lastname": "OBONYO",
+        "gender": "male",
+        "username": "treycee",
+        "password": "43666768",
+        "phone": "88654564",
+        "email": "trevorsj@jdhghsj",
+        "experience": "Was all about gender neutral confidence",
+        "category": "fashion",
+        "newsletter": false,
+        "id": 5
+      }
+    ]
+  }

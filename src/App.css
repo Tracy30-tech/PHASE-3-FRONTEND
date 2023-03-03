@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  height: 150vh;
+  /* text-align: center; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .home,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  
+  justify-content: center;
+  font-size: 3rem;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
+  margin: 0.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+input, select {
+  width: 90%; 
+  margin-bottom: 1rem;   
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+  margin-bottom: 1rem;
+}
+
+.home{
+  font-size: large;
+}
+
+.users{
+  color: darkred;
+}
+
+.add:hover {
+  background-color: dodgerblue;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.verify:hover {
+  background-color:green;
+  color: white;
+}
+.verify{
+  float: right;
+  color:darkred;
+  transition-duration: 0.4s;
+  border-radius: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#firstname,
+#lastname,
+#gender,
+#username,
+#phone,
+#country,
+#category{
+  font-weight: bold;
+  color:  #580327;
+  font-size: larger;
+}
+
+.card{
+  height: 70%;
+  /* position: absolute;
+  z-index: 1; */
+  background-color: black;
+  color: aliceblue;
+}
+.card-body{
+  background-color:black;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: firebrick;
+  border-bottom: 2px solid firebrick;
+  transition: 0.1s;
+}
+
+nav a:hover,
+nav a:active {
+  color: tomato;
+  border-bottom: 2px solid tomato;
+}
+
+#more {
+  height: 500px;
+  background-color: #580327; /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg,#580327, rgb(121, 185, 250));
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+  color: black;
+  margin-top: 90px;
+}
+
+#content{
+  margin-top: 100px;
+}
+
+#form{
+  font-weight: 1000;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.phon{
+  font-weight: 1000;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mission{
+  background-color: rgb(209, 220, 231);
+  font-weight: 1000;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.space{
+  margin-top: 50px;
+}
+
+#mission{
+  margin-bottom: 50px;
+}
+
+.parag{
+  font-size: larger;
+  background-color: aliceblue;
+  margin-bottom: 70px;
+  padding-left: 50px;
+
+}
+
+.report{
+  margin-top: 30px;
+  font-weight: bolder;
+  color: black;
+ 
+}
+
+.btnhome:hover {
+  background-color:green;
+
+}
+.btnhome{
+  float: right;
+  color:rgb(139, 0, 102);
+  transition-duration: 0.4s;
+  border-radius: 8px;
+}
+
+.hover:hover {
+  background-color:green;
+  color: white;
+}
+.hover{
+  color:darkred;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+}
+
+.hoverleft:hover {
+  background-color:green;
+  color: white;
+}
+.hoverleft{
+  float: right;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+}
+
+.carol{
+  font-weight: bolder;
+}
+
+.par{
+  padding-left: 40px;
+  padding-right: 40px;
 }

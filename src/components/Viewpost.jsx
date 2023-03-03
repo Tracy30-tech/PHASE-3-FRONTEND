@@ -3,11 +3,11 @@ import { useParams } from 'react-router-dom'
 
 
 export default function Viewpost() {
-    const {itemId}= useParams()
+    const {id}= useParams()
     const [item, setItem]= useState({})
 
     useEffect(()=>{
-        fetch(`http://localhost:3001/properties/${itemId}`)
+        fetch(`http://localhost:9292/properties/${id}`)
         .then((r)=>r.json())
         .then((post)=>{
             setItem (post)
@@ -18,7 +18,7 @@ export default function Viewpost() {
 
     return (
     <div className="viewpost">
-        <img src= {item.imageUrl} alt={item.name} />
+        <img src= {item.image_url} alt={item.name} />
     <div> 
         <p className="card-text">Owner: {item.name}</p>
         <p className="card-text">Category: {item.category}</p>

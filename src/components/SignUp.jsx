@@ -6,22 +6,22 @@ import Swal from 'sweetalert2'
 
 function SignUp() {
    const [formData, setFormData] = useState({
-    firstname:"",
-    lastname:"",
-    gender:"male",
-    username: "",
-    password: "",
+    // firstname:"",
+    // lastname:"",
+    // gender:"male",
+    // password: "",
+    name: "",
     phone: "",
     email:"",
-    experience:"",
-    category: "paintwork",
-    newsletter: true
+    // experience:"",
+    // category: "paintwork",
+    // newsletter: true
   })
  
   function handleSubmit(event) {
     event.preventDefault();
     
-    fetch("http://localhost:3001/users", 
+    fetch("http://localhost:9292/users", 
     {
         method: "POST",
         headers: {
@@ -68,7 +68,7 @@ function SignUp() {
       <h1>Create an Account</h1>
       <form onSubmit={handleSubmit}>
 
-      <label htmlFor="firstname">First Name</label>
+      {/* <label htmlFor="firstname">First Name</label>
       <input
         name='firstname'
         type="text"
@@ -96,18 +96,18 @@ function SignUp() {
         <option value="male">Male</option>
         <option value="female">Female</option>
         <option value="non-binary">Non-binary</option>
-      </select>
+      </select> */}
 
-      <label htmlFor="username">Username</label>
+      <label htmlFor="name">name</label>
       <input
-        name='username'
+        name='name'
         type="text"
-        id="username"
-        value={formData.username}
+        id="name"
+        value={formData.name}
         onChange={handleChange}
       />
 
-      <label htmlFor="password">Password</label>
+      {/* <label htmlFor="password">Password</label>
       <input
         name='password'
         type="password"
@@ -115,7 +115,7 @@ function SignUp() {
         placeholder='input your password here'
         value={formData.password}
         onChange={handleChange}
-      />
+      /> */}
 
       <label htmlFor="phone">Phone Number</label>
       <input
@@ -136,7 +136,7 @@ function SignUp() {
         onChange={handleChange}
       />
 
-      <label htmlFor="experience"></label>
+      {/* <label htmlFor="experience"></label>
       <input
         name='experience'
         type="text"
@@ -144,7 +144,7 @@ function SignUp() {
         id="experience"
         value={formData.experience}
         onChange={handleChange}
-      />
+      /> */}
 
       {/* <label htmlFor="avatar">Avatar Image</label>
       <input
@@ -158,7 +158,7 @@ function SignUp() {
         alt="Avatar preview"
       /> */}
 
-      <label htmlFor="category">Choose interest</label>
+      {/* <label htmlFor="category">Choose interest</label>
       <select
         name='category'
         id="category"
@@ -179,7 +179,7 @@ function SignUp() {
           checked={formData.newsletter}
           onChange={handleChange}
         />
-      </label>
+      </label> */}
 
       <input className="add" type="submit" value="Sign Up"/>
 
