@@ -183,6 +183,7 @@ function SignUp() {
 
       <input className="add" type="submit" value="Sign Up"/>
 
+
       
       {/* <input type="submit" value="Sign Up" /> */}
     </form>

@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import Footer from "../components/Footer";
 import Navlink from "../components/Navlink";
 import { useHistory} from "react-router-dom";
-import  image from "../img/tracy.jpg"
+// import  image from "../img/tracy.jpg"
 
 export default function Login() {
   const history = useHistory()
@@ -59,7 +59,6 @@ export default function Login() {
     return(
       <div className="login">
         <div> <Navlink /> </div>
-        <img src={image}/>
         <h1 id="form">
          HYDRATECH INOVATIONS DESIGN AND BUILD
         </h1>
@@ -93,6 +92,13 @@ export default function Login() {
                             <div key={index} className="card col-sm-3 m-1" style={{width: "18rem;"}} onClick={()=>{
                                  history.push(`/viewpost/${item.id}`) 
                             }}>
+                                <button className="hoverleft" onClick={(e)=>{
+                                        e.stopPropagation()
+                                        e.preventDefault()
+                                        history.push(`/reviews/${item.id}`)
+                                    }}>
+                                        Review
+                                    </button>
                                 <img className="picture" src={item.image_url} class="card-img-top" alt="..."/>
                                 <div className="card-body" >
                                     <p className="card-text">Category: {item.category}</p>

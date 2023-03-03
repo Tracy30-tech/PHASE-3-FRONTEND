@@ -12,6 +12,8 @@ import Login from "./pages/Login";
 import Update from "./pages/Update";
 import SignUp from "./components/SignUp";
 import Viewpost from "./components/Viewpost";
+import Reports from "./pages/Reports";
+
 
 
 export default function App() {
@@ -24,7 +26,7 @@ export default function App() {
           <Route path="/products" component={AboutUs} />
           <Route path="/support" component={Help} />
           <Route path="/login" component={Login} />
-          <Route path="/reports" component={Report} />
+          <Route path="/reviews" component={Reports} />
           <Route path="/update/:id" component={Update} />
           <Route path="/signup" component={SignUp} />
           <Route path="/viewpost/:id"component={Viewpost}/>
