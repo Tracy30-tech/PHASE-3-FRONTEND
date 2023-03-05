@@ -20,7 +20,7 @@ export default function Viewpost() {
     <div className="viewpost">
         <img src= {item.image_url} alt={item.name} />
     <div> 
-        <p className="card-text">Owner: {item.name}</p>
+        <p className="card-text"> Username: {item.name}</p>
         <p className="card-text">Category: {item.category}</p>
         <p className="card-text">Email: {item.email}</p>
     </div>

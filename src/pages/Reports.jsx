@@ -3,16 +3,16 @@ import { useParams } from 'react-router-dom'
 import Swal from 'sweetalert2'
 
 export default function Reports() {
-    useEffect(()=>{
-        fetch(`http://localhost:9292/properties/${id}`)
-        .then((r)=>r.json())
-        .then((post)=>{
+    // useEffect(()=>{
+    //     fetch(`http://localhost:9292/reviews`)
+    //     .then((r)=>r.json())
+    //     .then((post)=>{
             
-        })
+    //     })
 
-    },[])
+    // },[])
 
-    const {id} = useParams()
+    // const {id} = useParams()
      
 
     const [formData, setFormData] = useState({
@@ -22,31 +22,47 @@ export default function Reports() {
         user_id:""
       })
 
+
+      
+  
+
     function handleSubmit(event) {
         event.preventDefault();
-        
-        fetch("http://localhost:9292/reviews", 
+
+        fetch(`http://localhost:9292/reviews`,
         {
-            method: "POST",
-            headers: {
-               "Content-Type": "application/json", 
-               "Accept": "application/json",
-            },
-            body: JSON.stringify(formData)
-        })
-        .then((response)=> response.json())
-        .then(data =>{
-    
+        method:"POST",
+        headers: {"Content-Type":"application/json"},
+        body:JSON.stringify(formData)
+     })
+        .then((r)=>r.json())
+        .then((post)=>{
+        
+        
         setFormData("")
         })
     
-    
+        let timerInterval
         Swal.fire({
-          title: 'Success',
-          text: 'Successfully created an acount',
-          icon: 'success',
-          confirmButtonText: 'Exit',
-          confirmButtonColor:"green"
+          title: 'Saving review!',
+          html: 'Review will be uploaded in <b></b> milliseconds.',
+          timer: 2000,
+          timerProgressBar: true,
+          didOpen: () => {
+            Swal.showLoading()
+            const b = Swal.getHtmlContainer().querySelector('b')
+            timerInterval = setInterval(() => {
+              b.textContent = Swal.getTimerLeft()
+            }, 100)
+          },
+          willClose: () => {
+            clearInterval(timerInterval)
+          }
+        }).then((result) => {
+          /* Read more about handling dismissals below */
+          if (result.dismiss === Swal.DismissReason.timer) {
+            console.log('I was closed by the timer')
+          }
         })
         // console.log(formData);
       }
@@ -71,6 +87,14 @@ export default function Reports() {
                 type="number"
                 id="user_id"
                 value={formData.user_id}
+                onChange={handleChange}
+            />
+            <label htmlFor="property_id">Property_id</label>
+            <input
+                name='property_id'
+                type="number"
+                id="property_id"
+                value={formData.property_id}
                 onChange={handleChange}
             />
             
