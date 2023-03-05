@@ -23,6 +23,7 @@ export default function Viewpost() {
         <p className="card-text"> Username: {item.name}</p>
         <p className="card-text">Category: {item.category}</p>
         <p className="card-text">Email: {item.email}</p>
+        <p className="card-text">Email: {item.email}</p>
     </div>
     </div>
     )

@@ -5,20 +5,14 @@ import { Link } from "react-router-dom";
 
 
 export default function Home() {
-  const[users,setUsers]=useState(33);
 
-
-  function handleClick(){
-    setUsers(users+1);
-   };
+  
   return (
     <div>
       <h1 className="home">Home</h1>
       <h1 id="form">
         HYDRATECH INOVATIONS DESIGN AND BUILD
       </h1>
-      <div className="users">USERS 👥:{users}</div>
-      <button className="verify" onClick={handleClick}>Verify membership</button>
       <button className="btnhome">
         <Link to={"/signup"}> Create Account</Link>
       </button>

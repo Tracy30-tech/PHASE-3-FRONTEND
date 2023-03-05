@@ -6,6 +6,8 @@ import 'animate.css';
 // - React Forms: https://reactjs.org/docs/forms.html
 
 function SignUp() {
+  const[users,setUsers]=useState(33)
+
    const [formData, setFormData] = useState({
     // firstname:"",
     // lastname:"",
@@ -38,11 +40,12 @@ function SignUp() {
     setFormData("")
     })
 
-    
+
 //npm install animate.css --save
 //import 'animate.css';
     Swal.fire({
       title: 'Account Created Successfully',
+      text: 'Make sure to verify membership to get you user_id!',
       showClass: {
         popup: 'animate__animated animate__fadeInDown'
       },
@@ -62,13 +65,18 @@ function SignUp() {
       [key]: value
     })
   }
-  
+
+  function handleClick(){
+    setUsers(users+1);
+   };
   // console.log(formData)
   
     
 
   return (
     <>
+      <div className="users">user_id 👥:{users}</div>
+      <button className="verify" onClick={handleClick}>Verify membership</button>
       <h1>Create an Account</h1>
       <form onSubmit={handleSubmit}>
 
